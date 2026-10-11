@@ -1,0 +1,6 @@
+./archive/2025/plan.txt
+./archive/2025/budget.csv
+./data-old.csv
+token=lab-only
+ls -S sorted/images/
+/etc/os-release
