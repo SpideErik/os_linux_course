@@ -1,0 +1,20 @@
+# Домашнее задание № 1 · Файловая система Linux
+
+## Что сделать
+
+1. Практическая работа из части 8 лекции:
+   https://algorthimization-course-vvodnoe.vercel.app/op05-operacionnye-sistemy-i-sredy/lessons/03-faylovaya-sistema-linux-fhs/08-sborka.html
+   Повторите у себя примеры частей 1–7, снимите 13 снимков и оформите отчёт
+   по шаблону отчёта из материалов лекции.
+2. Итоговая задача про пути shop-api — в конце отчёта.
+3. Домашнее задание из той же части: таблица каталогов для backup-agent —
+   в конце отчёта.
+4. Практика-тест по занятию 3, код результата — в конце отчёта:
+   https://algorthimization-course-vvodnoe.vercel.app/op05-operacionnye-sistemy-i-sredy/testy/tema-03/index.html
+
+## Что сдать
+
+| Файл | Что в нём |
+|---|---|
+| [report.md](report.md) | отчёт по шаблону из лекции, итоговая задача, backup-agent, код теста |
+| [screenshots/](screenshots/) | 13 снимков под именами из шаблона отчёта |
