@@ -10,23 +10,23 @@
 Команды:
 
 ```bash
-pwd, ls -lah /
+pwd && ls -lah /
 ```
 
 ![Корневой каталог](screenshots/01-root.png)
 
-Результат: …
+Результат: текущий путь и содержание корневого каталога
 
 Что такое корневой каталог, чем абсолютный путь отличается от относительного.
 
-Вывод: …
+Вывод: Несмтря на текущий каталог ls показала содержимое корневого каталога, потому что в параметрах указан абсолютный путь / 
 
 ## Домашний каталог
 
 Команды:
 
 ```bash
-cd ~, pwd, ls -a
+cd ~ && pwd && ls -a
 ```
 
 ![Домашний каталог](screenshots/02-home.png)
@@ -42,7 +42,7 @@ cd ~, pwd, ls -a
 Команды:
 
 ```bash
-cat /etc/os-release; getent passwd
+cat /etc/os-release && getent passwd
 ```
 
 ![Каталог /etc](screenshots/03-system.png)
@@ -58,8 +58,8 @@ cat /etc/os-release; getent passwd
 Команды:
 
 ```bash
-command -v, type, echo $PATH
-```
+ command -v python3 && type cd && echo $PATH
+ ```
 
 ![Программы и PATH](screenshots/04-programs.png)
 
@@ -74,7 +74,7 @@ command -v, type, echo $PATH
 Команды:
 
 ```bash
-ls /var; findmnt -T /run
+ls /var && findmnt -T /run
 ```
 
 ![Изменяемые данные](screenshots/05-var.png)
@@ -106,7 +106,7 @@ ls -l /dev/null; echo $?
 Команды:
 
 ```bash
-cat /proc/uptime; cp; sleep 5
+cat /proc/uptime | tee ~/linux-fhs-lab/saved-uptime.txt; sleep 5; cat /proc/uptime; cat ~/linux-fhs-lab/saved-uptime.txt
 ```
 
 ![Файлы /proc](screenshots/07-proc.png)
@@ -170,7 +170,7 @@ findmnt /; df -h .; du -sh data
 Команды:
 
 ```bash
-findmnt -T mount-demo
+findmnt -T mount-demo; ls -l mount-demo
 ```
 
 ![Монтирование tmpfs](screenshots/11-mount-before.png)
@@ -186,7 +186,7 @@ findmnt -T mount-demo
 Команды:
 
 ```bash
-cat mount-demo/before.txt
+findmnt -T mount-demo; cat mount-demo/before.txt
 ```
 
 ![Отключение tmpfs](screenshots/12-mount-after.png)
