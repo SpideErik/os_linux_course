@@ -10,11 +10,11 @@
 
 ![](assets/screenshots/01_virtualbox.png)
 
-* Ubuntu загружается с виртуального диска без ISO
+* Debian загружается с виртуального диска без ISO
 
 ![](assets/screenshots/02_debian_start.png)
 
-* Виден рабочий стол и имя пользователя
+* Login в систему (я установил чисто консольную версию)
 
 ![](assets/screenshots/03_login.png)
 
@@ -25,5 +25,3 @@
 * В дереве снимков есть clean-install
 
 ![](assets/screenshots/05_snapshot.png)
-
-
