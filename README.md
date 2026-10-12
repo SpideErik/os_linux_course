@@ -7,3 +7,5 @@
 ## [ПРАКТИЧЕСКАЯ РАБОТА № 2 Установка Debian 13 на VirtualBox](labs/lab02/README.md)
 
 ## [Занятие 3 Файловая система Linux](lesson_01/README.md)
+
+## [Занятие 4 Файлы, маски, поиск и справка](lesson_02/README.md)
